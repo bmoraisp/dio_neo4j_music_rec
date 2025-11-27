@@ -1,0 +1,10 @@
+# Virtualenv e caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Dados e credenciais
+*.csv
+.env
+music_instance_keys
