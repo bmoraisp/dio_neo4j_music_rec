@@ -4,7 +4,7 @@ Projeto em Python para explorar recomendacoes musicais a partir de um grafo no N
 
 ## Estrutura do grafo
 
-![Diagrama do grafo](docs/neo4j-schema.png)
+![Diagrama do grafo](docs/visualization.png)
 
 ## Requisitos
 
@@ -42,14 +42,14 @@ with get_driver().session() as session:
 
 Para trabalhar nos notebooks:
 ```bash
-jupyter notebook data_music.ipynb
-jupyter notebook music_graph.ipynb
+jupyter notebook music_rec_system.ipynb
+jupyter notebook music_etl.ipynb
 ```
 
 ## Dados
 
-- `music_info.csv` e `music_info_export.csv`: informacoes de faixas, artistas e generos.
-- `user_listening.csv` e `user_listening_export.csv`: historico de execucoes dos usuarios.
+- `music_info.csv`: informacoes de faixas, artistas e generos.
+- `user_listening.csv`: historico de execucoes dos usuarios.
 - `user_profiles_export.csv`: dados adicionais de perfil dos usuarios.
 
 ## Estrutura de pastas
